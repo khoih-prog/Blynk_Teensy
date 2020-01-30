@@ -8,7 +8,7 @@ To enable Blynk support of Teensy boards, especially latest Teensy 4.0
 
 The suggested way to install is to:
 
-1. Navigate to [Blynk_Teensy] (https://github.com/khoih-prog/Blynk_Teensy) page.
+1. Navigate to [Blynk_Teensy](https://github.com/khoih-prog/Blynk_Teensy) page.
 2. Download the latest release `Blynk_Teensy-master.zip`.
 3. Extract the zip file to `Blynk_Teensy-master` directory 
 4. Copy whole `Blynk_Teensy-master/src` folder to Arduino libraries' `src` directory such as `~/Arduino/libraries/Blynk/src`.
