@@ -25,6 +25,7 @@ That's it.
 
 Also see examples: 
 1. [Teensy40_ESP8266Shield](examples/Teensy40_ESP8266Shield)
+2. [Teensy40_Serial_USB](examples/Teensy40_Serial_USB)
 
 
 ## Prerequisite
