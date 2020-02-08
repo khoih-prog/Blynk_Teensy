@@ -29,8 +29,8 @@ Also see examples:
 
 
 ## Prerequisite
-* `Teensy core 1.49 or later`  (https://www.pjrc.com/teensy/td_download.html)
-* `Blynk library 0.6.1 or later` (https://www.arduino.cc/en/guide/libraries#toc3)
+* [`Teensy core 1.49 or later`](https://www.pjrc.com/teensy/td_download.html)
+* [`Blynk library 0.6.1 or later`](https://www.arduino.cc/en/guide/libraries#toc3)
 
 ## Sample code
 ```
