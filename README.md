@@ -30,7 +30,7 @@ Also see examples:
 
 ## Prerequisite
 * [`Teensy core 1.49 or later`](https://www.pjrc.com/teensy/td_download.html)
-* [`Blynk library 0.6.1 or later`](https://www.arduino.cc/en/guide/libraries#toc3)
+* [`Blynk library 0.6.1 or later`](https://github.com/blynkkk/blynk-library/releases)
 
 ## Sample code
 ```
