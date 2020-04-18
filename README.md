@@ -1,6 +1,10 @@
 ## Blynk_Teensy
 
 [![arduino-library-badge](https://www.ardu-badge.com/badge/Blynk_Teensy.svg?)](https://www.ardu-badge.com/Blynk_Teensy)
+[![GitHub release](https://img.shields.io/github/release/khoih-prog/Blynk_Teensy.svg)](https://github.com/khoih-prog/Blynk_Teensy/releases)
+[![GitHub](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/khoih-prog/Blynk_Teensy/blob/master/LICENSE)
+[![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](#Contributing)
+[![GitHub issues](https://img.shields.io/github/issues/khoih-prog/Blynk_Teensy.svg)](http://github.com/khoih-prog/Blynk_Teensy/issues)
 
 To enable Blynk support of Teensy boards, especially latest Teensy 4.0
 
