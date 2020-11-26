@@ -6,38 +6,97 @@
 [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](#Contributing)
 [![GitHub issues](https://img.shields.io/github/issues/khoih-prog/Blynk_Teensy.svg)](http://github.com/khoih-prog/Blynk_Teensy/issues)
 
-To enable Blynk support of Teensy boards, especially latest Teensy 4.0
+---
+---
+
+To enable Blynk support of Teensy boards, especially latest Teensy 4.1/4.0
+
+---
+
+### Releases v1.0.0
+
+1. To add support to latest Teensy 4.1/4.0 boards. 
+
+---
+
+## Prerequisites
+
+ 1. [`Arduino IDE 1.8.13+` for Arduino](https://www.arduino.cc/en/Main/Software)
+ 2. [`Blynk library 0.6.1+`](https://www.arduino.cc/en/guide/libraries#toc3)
+ 3. [`Teensy core v1.53+`](https://www.pjrc.com/teensy/td_download.html) for Teensy (4.1, 4.0, 3.6, 3.5, 3,2, 3.1, 3.0) boards.
+ 
+---
 
 ### Installation
 
 The suggested way to install is to:
 
+#### Use Arduino Library Manager
+
+The best way is to use `Arduino Library Manager`. Search for `Blynk_Teensy`, then select / install the latest version. You can also use this link [![arduino-library-badge](https://www.ardu-badge.com/badge/Blynk_Teensy.svg?)](https://www.ardu-badge.com/Blynk_Teensy) for more detailed instructions.
+
+Then copy [BlynkDetectDevice.h](https://github.com/khoih-prog/Blynk_Esp8266AT_WM/blob/master/src/Blynk/BlynkDetectDevice.h) to folder ~/Arduino/libraries/Blynk/src/Blynk to overwrite the original file `BlynkDetectDevice.h`.
+
+#### Manual Install
+
 1. Navigate to [Blynk_Teensy](https://github.com/khoih-prog/Blynk_Teensy) page.
 2. Download the latest release `Blynk_Teensy-master.zip`.
 3. Extract the zip file to `Blynk_Teensy-master` directory 
-4. Copy whole `Blynk_Teensy-master/src` folder to Arduino libraries' `src` directory such as `~/Arduino/libraries/Blynk/src`.
+4. Copy whole 
+  - `Blynk_Teensy-master/src` folder to Arduino libraries' directory such as `~/Arduino/libraries/`.
+  
+The file BlynkSimpleShieldEsp8266_Teensy.h must be placed in Blynk libraries `src` directory (normally `~/Arduino/libraries/Blynk/src`).
+  
+Then copy [BlynkDetectDevice.h](https://github.com/khoih-prog/Blynk_Esp8266AT_WM/blob/master/src/Blynk/BlynkDetectDevice.h) to folder ~/Arduino/libraries/Blynk/src/Blynk to overwrite the original file `BlynkDetectDevice.h`. By doing this, the correct board type can be displayed correctly along with Blynk logo as follows:
 
-The file BlynkSimpleShieldEsp8266_Teensy.h must be placed in Blynk libraries `src` directory (normally `~/Arduino/libraries/Blynk/src`), BlynkDetectDevice.h must be placed in Blynk libraries `src/Blynk` and replace the original file.
+```
+    ___  __          __
+   / _ )/ /_ _____  / /__
+  / _  / / // / _ \/  '_/
+ /____/_/\_, /_//_/_/\_\
+        /___/ v0.6.1 on Teensy 4.1/4.0
+```
 
+not just unknown Arduino board type:
+
+```
+    ___  __          __
+   / _ )/ /_ _____  / /__
+  / _  / / // / _ \/  '_/
+ /____/_/\_, /_//_/_/\_\
+        /___/ v0.6.1 on Arduino
+```
+
+#### VS Code & PlatformIO:
+
+1. Install [VS Code](https://code.visualstudio.com/)
+2. Install [PlatformIO](https://platformio.org/platformio-ide)
+3. Install [**Blynk_Teensy** library](https://platformio.org/lib/show/7024/Blynk_Teensy) by using [Library Manager](https://platformio.org/lib/show/7024/Blynk_Teensy/installation). Search for **Blynk_Teensy** in [Platform.io Author's Libraries](https://platformio.org/lib/search?query=author:%22Khoi%20Hoang%22)
+4. Use included [platformio.ini](platformio/platformio.ini) file from examples to ensure that all dependent libraries will installed automatically. Please visit documentation for the other options and examples at [Project Configuration File](https://docs.platformio.org/page/projectconf.html)
+
+---
+---
 
 ### How to use
 
-In your code, replace
+In your code, just replace
+
 1. `BlynkSimpleShieldEsp8266.h` with `BlynkSimpleShieldEsp8266_Teensy.h`
 
 That's it.
 
-Also see examples: 
+---
+
+### Examples
+
 1. [Teensy40_ESP8266Shield](examples/Teensy40_ESP8266Shield)
 2. [Teensy40_Serial_USB](examples/Teensy40_Serial_USB)
 
-
-## Prerequisite
-* [`Teensy core 1.49 or later`](https://www.pjrc.com/teensy/td_download.html)
-* [`Blynk library 0.6.1 or later`](https://github.com/blynkkk/blynk-library/releases)
+---
 
 ## Sample code
-```
+
+```cpp
 /* Comment this out to disable prints and save space */
 #define BLYNK_PRINT Serial
 
@@ -115,15 +174,27 @@ OK
 [25601] Ready (ping: 14ms).
 ```
 
+---
+---
+
 ### Releases v1.0.0
 
-***Why this version***
+1. To add support to latest Teensy 4.1/4.0 boards. 
 
-To add support to latest Teensy 4.0 boards. 
+---
 
 ## TO DO
 
 1. Same features for other shields such as WiFi, Ethernet, BT/BLE, GSM/GPRS.
+
+---
+
+### Issues ###
+
+Submit issues to: [Blynk_Teensy issues](https://github.com/khoih-prog/Blynk_Teensy/issues)
+
+
+---
 
 ## Contributing
 
@@ -132,6 +203,14 @@ If you want to contribute to this project:
 - Ask for enhancements
 - Create issues and pull requests
 - Tell other people about this library
+
+---
+
+### License
+
+- The library is licensed under [MIT](https://github.com/khoih-prog/Blynk_Teensy/blob/master/LICENSE)
+
+---
 
 ## Copyright
 
