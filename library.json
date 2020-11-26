@@ -22,6 +22,15 @@
       "tests"
     ]
   },
+  "dependencies": 
+  [
+    {
+      "owner": "blynkkk",
+      "name": "Blynk",
+      "version": "^0.6.1",
+      "platforms": ["*"]
+    }
+  ],
   "frameworks": "*",
   "platforms": "*",
   "examples": "examples/*/*/*.ino"
