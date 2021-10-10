@@ -13,9 +13,6 @@
 
 * [Why do we need this Blynk_Teensy library](#why-do-we-need-this-Blynk_Teensy-library)
   * [Features](#features)
-  * [Why using Async](#why-using-async)
-  * [Why using SSL insecured mode now](#why-using-ssl-insecured-mode-now)
-  * [Currently supported Boards](#currently-supported-boards)
 * [Changelog](changelog.md)
 * [Prerequisites](#prerequisites)
 * [Installation](#installation)
