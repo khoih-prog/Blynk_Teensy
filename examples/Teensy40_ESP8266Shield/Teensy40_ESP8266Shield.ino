@@ -5,11 +5,6 @@
  * Forked from Blynk library v0.6.1 https://github.com/blynkkk/blynk-library/releases
  * Built by Khoi Hoang https://github.com/khoih-prog/Blynk_Teensy
  * Licensed under MIT license
- * Version: 1.0.0
- *
- * Version Modified By   Date        Comments
- * ------- -----------  ----------   -----------
- *  1.0.0   K Hoang      29/01/2020  Initial coding
  *****************************************************************************************************************************/
 
 /* Comment this out to disable prints and save space */

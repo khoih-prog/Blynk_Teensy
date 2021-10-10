@@ -1,24 +1,26 @@
 /****************************************************************************************************************************
-   BlynkSimpleShieldEsp8266_Teensy.h
-   For ESP8266 AT-command shields
+  BlynkSimpleShieldEsp8266_Teensy.h
+  For ESP8266 AT-command shields
 
-   Blynk_Teensy is a library for the Teensy Arduino platform (https://github.com/esp8266/Arduino)
-   Forked from Blynk library v0.6.1 https://github.com/blynkkk/blynk-library/releases
-   Built by Khoi Hoang https://github.com/khoih-prog/Blynk_WM
-   Licensed under MIT license
-   Version: 1.0.0
+  Blynk_Teensy is a library for the Teensy Arduino platform (https://github.com/esp8266/Arduino)
+  Forked from Blynk library v0.6.1 https://github.com/blynkkk/blynk-library/releases
+  Built by Khoi Hoang https://github.com/khoih-prog/Blynk_Teensy
+  Licensed under MIT license
 
-   Original Blynk Library author:
-   @file       BlynkSimpleShieldEsp8266_Teensy.h
-   @author     Volodymyr Shymanskyy
-   @license    This project is released under the MIT License (MIT)
-   @copyright  Copyright (c) 2015 Volodymyr Shymanskyy
-   @date       Jun 2015
-   @brief
+  Original Blynk Library author:
+  @file       BlynkSimpleESP8266.h
+  @author     Volodymyr Shymanskyy
+  @license    This project is released under the MIT License (MIT)
+  @copyright  Copyright (c) 2015 Volodymyr Shymanskyy
+  @date       Oct 2016
+  @brief
 
-   Version Modified By   Date        Comments
-   ------- -----------  ----------   -----------
-    1.0.0   K Hoang      29/01/2020  Initial coding
+  Version: 1.0.1
+
+  Version Modified By   Date        Comments
+  ------- -----------  ----------   -----------
+  1.0.0   K Hoang      29/01/2020  Initial coding
+  1.0.1   K Hoang      09/10/2021  Update `library.json`
  *****************************************************************************************************************************/
 
 #ifndef BlynkSimpleShieldEsp8266_Teensy_h

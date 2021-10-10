@@ -9,21 +9,52 @@
 ---
 ---
 
+## Table of Contents
+
+* [Why do we need this Blynk_Teensy library](#why-do-we-need-this-Blynk_Teensy-library)
+  * [Features](#features)
+  * [Why using Async](#why-using-async)
+  * [Why using SSL insecured mode now](#why-using-ssl-insecured-mode-now)
+  * [Currently supported Boards](#currently-supported-boards)
+* [Changelog](changelog.md)
+* [Prerequisites](#prerequisites)
+* [Installation](#installation)
+  * [Use Arduino Library Manager](#use-arduino-library-manager)
+  * [Manual Install](#manual-install)
+  * [VS Code & PlatformIO](#vs-code--platformio)
+* [How to use](#How-to-use)
+* [Examples](#examples)
+  * [ 1. Teensy40_ESP8266Shield](examples/Teensy40_ESP8266Shield)
+  * [ 2. Teensy40_Serial_USB](examples/Teensy40_Serial_USB)
+* [Sample code](#Sample-code)
+* [Troubleshooting](#troubleshooting)
+* [Issues](#issues)
+* [TO DO](#to-do)
+* [DONE](#done)
+* [Contributions and Thanks](#contributions-and-thanks)
+* [Contributing](#contributing)
+* [License](#license)
+* [Copyright](#copyright)
+
+
+  
+---
+---
+
+### Why do we need this [Blynk_Teensy library](https://github.com/khoih-prog/Blynk_Teensy)
+
+#### Features
+
 To enable Blynk support of Teensy boards, especially latest Teensy 4.1/4.0
 
 ---
-
-### Releases v1.0.0
-
-1. To add support to latest Teensy 4.1/4.0 boards. 
-
 ---
 
 ## Prerequisites
 
- 1. [`Arduino IDE 1.8.13+` for Arduino](https://www.arduino.cc/en/Main/Software)
- 2. [`Blynk library 0.6.1+`](https://www.arduino.cc/en/guide/libraries#toc3)
- 3. [`Teensy core v1.53+`](https://www.pjrc.com/teensy/td_download.html) for Teensy (4.1, 4.0, 3.6, 3.5, 3,2, 3.1, 3.0) boards.
+ 1. [`Arduino IDE 1.8.16+`](https://www.arduino.cc/en/Main/Software)
+ 2. [`Blynk library 1.0.1+`](https://github.com/blynkkk/blynk-library/releases). [![Latest release](https://img.shields.io/github/release/blynkkk/blynk-library.svg)](https://github.com/blynkkk/blynk-library/releases/latest/). Never use the `Blynk beta` versions.
+ 3. [`Teensy core v1.55+`](https://www.pjrc.com/teensy/td_download.html) for Teensy (4.1, 4.0, 3.6, 3.5, 3,2, 3.1, 3.0) boards.
  
 ---
 
@@ -72,7 +103,7 @@ not just unknown Arduino board type:
 1. Install [VS Code](https://code.visualstudio.com/)
 2. Install [PlatformIO](https://platformio.org/platformio-ide)
 3. Install [**Blynk_Teensy** library](https://platformio.org/lib/show/7024/Blynk_Teensy) by using [Library Manager](https://platformio.org/lib/show/7024/Blynk_Teensy/installation). Search for **Blynk_Teensy** in [Platform.io Author's Libraries](https://platformio.org/lib/search?query=author:%22Khoi%20Hoang%22)
-4. Use included [platformio.ini](platformio/platformio.ini) file from examples to ensure that all dependent libraries will installed automatically. Please visit documentation for the other options and examples at [Project Configuration File](https://docs.platformio.org/page/projectconf.html)
+4. Please visit documentation for the other options and examples at [Project Configuration File](https://docs.platformio.org/page/projectconf.html)
 
 ---
 ---
@@ -177,9 +208,10 @@ OK
 ---
 ---
 
-### Releases v1.0.0
+### Issues
 
-1. To add support to latest Teensy 4.1/4.0 boards. 
+Submit issues to: [Blynk_Teensy issues](https://github.com/khoih-prog/Blynk_Teensy/issues)
+
 
 ---
 
@@ -189,14 +221,21 @@ OK
 
 ---
 
-### Issues ###
+## DONE
 
-Submit issues to: [Blynk_Teensy issues](https://github.com/khoih-prog/Blynk_Teensy/issues)
+1. Basic support for Teensy
 
+---
+---
+
+### Contributions and Thanks
+
+Many thanks for everyone for bug reporting, new feature suggesting, testing and contributing to the development of this library.
 
 ---
 
-## Contributing
+
+### Contributing
 
 If you want to contribute to this project:
 - Report bugs and errors

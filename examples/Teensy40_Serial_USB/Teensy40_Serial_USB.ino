@@ -5,23 +5,6 @@
  * Forked from Blynk library v0.6.1 https://github.com/blynkkk/blynk-library/releases
  * Built by Khoi Hoang https://github.com/khoih-prog/Blynk_Teensy
  * Licensed under MIT license
- * Version: 1.0.0
- * 
- * =>
- * =>          USB HOWTO: http://tiny.cc/BlynkUSB
- * =>
- *
- * *** How to run *** 
- * 
- * 1) Must install socat in host machine
- * 2) Compile and upload the sketch, using Teensy USB port (for example /dev/ttyACM0)
- * 3) Run in host machine ~/Arduino/libraries/Blynk/scripts$ ./blynk-ser-local.sh 
- * 4) Input /dev/ttyACM0 when asked ***Select serial port [ /dev/ttyACM0 /dev/ttyUSB0 ]:***
- * 5) Don't open Arduino Terminal as Blynk will work through Serial => socat => Internet
- *
- * Version Modified By   Date        Comments
- * ------- -----------  ----------   -----------
- *  1.0.0   K Hoang      01/02/2020  Initial coding
  *****************************************************************************************************************************/
 
 /* Comment this out to disable prints and save space */
